@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel-agency</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mukta:wght@200;300;400;500;600;700;800&family=Nanum+Gothic&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="home-img">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><span id="gu">Travel</span>Guide</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Packages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">HoneyMoon Packages</a></li>
+                  <li><a class="dropdown-item" href="#">Special Kerala Festival Tours</a></li>
+                  <li><a class="dropdown-item" href="#">North Indian Tours</a></li>
+                </ul>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#">Transport</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hotels</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Support</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="home-text"><div class="t1">Travel</div><div class="t2">for enough</div><div class="t3">You meet </div><div class="t4">yourself</div></div>
+      <!-- Button trigger modal -->
+<div class="enq"><button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+ENQIRY 
+</button></div>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5 me-auto ms-auto" id="staticBackdropLabel">Please Share Your Details</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+    <input class="txt" type="text" placeholder="Name">
+    <input class="txt" type="email" placeholder="Email">
+    <input class="txt" type="text" placeholder="Phone Number">
+        <a id="pre" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Packages
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">HoneyMoon Packages</a></li>
+          <li><a class="dropdown-item" href="#">Special Kerala Festival Tours</a></li>
+          <li><a class="dropdown-item" href="#">North Indian Tours</a></li>
+        </ul>
+    
+    
+
+    <input class="txt" type="number" placeholder="Number Of Members">
+    <input class="txt" type="text" placeholder="Messages">
+
+
+    </div>
+    
+    <div class="modal-footer ms-auto me-auto">
+      <button type="button" id="sub" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+<div class="section1">
+  <h1 class="hed">HoneyMoon Packages</h1>
+  <div class="d-flex flex-wrap justify-content-center hny">
+      <div class="card p-3" style="width: 18rem;">
+          <img src="https://www.gtholidays.in/wp-content/uploads/2019/07/Beach-couple-3-870x555.jpg" class="card-img-top" alt="no-img">
+          <div class="card-body">
+            <h5 class="card-title">Kerala Honeymoon packages</h5>
+            <h6 style="color: red; text-align: center; padding-top: 5px;">04 Nights/05 Days</h6>
+            <p class="card-text">Kerala is blessed with natural beauty in abundance. The pristine beaches, lush greenery, beautiful mountain ranges, and sparkling backwaters truly make this place God’s Own Country and a much-loved honeymoon destination for newlyweds</p>
+            <div class="bk"><a href="#" class="btn btn-primary">Book Now</a></div>
+          </div>
+      </div>
+      <div class="card p-3" style="width: 18rem;">
+          <img src="https://media1.thrillophilia.com/filestore/ugzgu6758b9z89oh46cq2b0q9txg_1608633488_shutterstock_538363867.jpg?w=1440&dpr=2" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Maldives Honeymoon packages</h5>
+            <h6 style="color: red; text-align: center; padding-top: 5px;">04 Nights/05 Days</h6>
+            <p class="card-text">Our Maldives honeymoon packages include accommodations, exclusive services, local transfers, exotic meals, and guided sightseeing tours along with some fascinating activities.So, book your Maldives honeymoon packages.</p>
+            <div class="bk"><a href="#" class="btn btn-primary">Book Now</a></div>
+          </div>
+      </div>
+      <div class="card p-3" style="width: 18rem;">
+          <img id="manali" src="https://media1.thrillophilia.com/filestore/9glysrl26ju2fd23p67lwgqzzqdn_12-SM266876.jpg?w=753&h=450&dpr=2.0" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Manali Honeymoon packages</h5>
+            <h6 style="color: red; text-align: center; padding-top: 5px;">04 Nights/05 Days</h6>
+            <p class="card-text">Our Manali honeymoon packages include accommodations, exclusive services, local transfers, exotic meals, and guided sightseeing tours along with some fascinating activities.So, book your Maldives honeymoon packages.</p>
+            <div class="bk"><a href="#" class="btn btn-primary">Book Now</a></div>
+          </div>
+      </div>
+      <div class="card p-3" style="width: 18rem;">
+          <img src="https://media1.thrillophilia.com/filestore/ei57f7ynd0e5zzkj1gxkj1u9x8yc_1589017180_coupleeee.jpg?w=340&dpr=2" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Goa Honeymoon packages</h5>
+            <h6 style="color: red; text-align: center; padding-top: 5px;">04 Nights/05 Days</h6>
+            <p class="card-text">Our Goa honeymoon packages include accommodations, exclusive services, local transfers, exotic meals, and guided sightseeing tours along with some fascinating activities.So, book your Maldives honeymoon packages.</p>
+            <div class="bk"><a href="#" class="btn btn-primary">Book Now</a></div>
+          </div>
+        </div>
+  </div>
+  <div class="more"><a href="#" class="p">More Packages</a></div>
+</div>
+<div class="section2">
+  <h1 class="hed">Special Kerala Festival Tours</h1>
+  <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1691075210102-e7332e79bee8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100 cm" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="padding: 50px; font-size: 40px; text-shadow: blue 5px 5px 5px;">KADHAKALI</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+              <div class="more"><a href="#" class="m">More Details</a></div>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1713639979384-225aaf7a56b8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGhyaXNzdXIlMjBwb29yYW18ZW58MHx8MHx8fDA%3D" class=" d-block w-100 cm" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="padding: 50px; font-size: 40px;text-shadow: blue 5px 5px 5px;">THRISSUR POORAM</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+              <div class="more"><a href="#" class="m">More Details</a></div>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.keralatourism.org/images/festivals/large/20181023064920_245_1.jpg" class=" d-block w-100 cm" alt="...">
+            <div class="carousel-caption d-none d-md-block ca-hed">
+              <h5 style="padding: 50px; font-size: 40px;text-shadow: blue 5px 5px 5px;">KERALA BOAT RACE</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+              <div class="more"><a href="#" class="m">More Details</a></div>
+
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+  </div>
+  <div class="vimg">
+      <div class="vi">
+        <iframe id="vdo" width="560" height="315" src="https://www.youtube.com/embed/R83BlU5nnbs?si=UDVLhsARGdjpUoi8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="vi">
+        <div class="grid">
+          <img class="grid-img" src="https://images.unsplash.com/photo-1680204832081-6769d42b7a53?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8a2F0aGFrYWxpfGVufDB8fDB8fHww" alt="">
+          <img class="grid-img" src="https://www.holidify.com/images/cmsuploads/compressed/Theyyam_of_Kerala_3_20230405074410.jpg" alt="">
+          <img class="grid-img" src="https://www.keralabackwater.com/blog/wp-content/uploads/2015/11/Mohiniyattam.jpg" alt="">
+          <img class="grid-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgcGadettmS4QDX3NiqQ9JC-eHJGJl0FB6UQ&s" alt="">
+          <img class="grid-img img-s" src="https://www.holidify.com/images/cmsuploads/compressed/Kathakalidancer_20170810104952.jpg" alt="">
+          <img class="grid-img" src="https://www.thomascook.in/blog/wp-content/uploads/2023/11/Culture-of-Kerala.jpg" alt="">
+          <img class="grid-img" src="https://www.holidify.com/images/cmsuploads/compressed/800px-Aranmula-boat_race-_Kerala-India-1_20170810154811.jpg" alt="">
+          <img class="grid-img" src="https://kerala.me/wp-content/uploads/2015/11/kerala-culture.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  
+</div>
+<div class="section3">
+  <h1 class="hed">NORTH INDIAN TOURS</h1>
+  <div class="north">
+      <div class="ntr">
+         <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/09/Mussoorie1.jpg:cf-webp:w-848:h-551" alt="" class="nim">
+         <div class="text-over">
+          <h3>PUNJAB</h3>
+          ₹14000/person <br> <br>
+          <div class="book"><a href="" class="now">BOOK NOW</a></div>
+         </div>
+      </div>
+     <div class="ntr">
+    <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/04/Nainital1.jpg:cf-webp:w-848:h-551" alt="" class="nim">
+    <div class="text-over">
+      <h3>UTTAR PRADRSH</h3>
+      ₹16000/person <br> <br>
+      <div class="book"><a href="" class="now">BOOK NOW</a></div>
+     </div>
+    </div>
+     <div class="ntr">
+    <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/04/Mathura-and-Vrindavan.jpg:cf-webp:w-848:h-551" alt="" class="nim">
+     <div class="text-over">
+      <h3>UTTAR PRADRSH</h3>
+      ₹16000/person <br> <br>
+      <div class="book"><a href="" class="now">BOOK NOW</a></div>
+     </div>
+      </div>
+     <div class="ntr">
+    <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/09/Udaipur1.jpg:cf-webp:w-848:h-551" alt="" class="nim">
+     <div class="text-over">
+      <h3>RAJASTHAN</h3>
+      ₹18000/person <br> <br>
+      <div class="book"><a href="" class="now">BOOK NOW</a></div>
+     </div>
+    </div>
+ </div>
+</div>
+<div class="section4">
+  <h1 class="hed">Our premium features</h1>
+  <h4 class="premium">we will make your dreams come true</h4>
+  <div class="feat">
+   <div class="features">
+     <img src="https://cdn.vectorstock.com/i/500p/37/68/flat-man-and-woman-couple-riding-on-motorbike-near-vector-23633768.avif" alt="" class="fim">
+     <h4 class="res">free bike ride</h4>
+     <a href="" class="lk">Learn More</a>
+ 
+   </div>
+   <div class="features">
+     <img src="https://img.freepik.com/premium-photo/cartoon-illustration-couple-sitting-by-campfire-with-man-woman-sitting-by-fire_905510-6945.jpg" alt="" class="fim">
+     <h4 class="res">campfire</h4>
+     <a href="" class="lk">Learn More</a>
+ 
+   </div>
+   <div class="features"><img src="https://t3.ftcdn.net/jpg/05/44/67/74/240_F_544677454_4Q2H8z81yYV8QhrZjcgchl0yoUoN2hDm.jpg" alt="" class="fim">    
+     <h4 class="res">24x7 support</h4>
+     <a href="" class="lk">Learn More</a>
+   </div>
+   <div class="features">
+     <img src="https://img.freepik.com/premium-photo/analyze-role-collaborative-trip-planning-generative-ai_1198295-12002.jpg?size=626&ext=jpg&ga=GA1.1.687130020.1721379618&semt=ais_user" alt="" class="fim">
+     <h4 class="res">tour guide</h4>
+     <a href="" class="lk">Learn More</a>
+   </div>
+ 
+  </div>
+</div>
+<div class="section5">
+  <div class="enve"><i class="fa-regular fa-envelope-open fa-2xl" style="color: #FFD43B;"></i></div>
+  <h3 class="cust">Our Customers Love</h3>
+ <div class="review">
+   <div class="rev">
+     <img src="https://img.freepik.com/free-photo/young-couple-vacation-taking-self-portrait-with-cell-phone_23-2147841536.jpg?size=626&ext=jpg&ga=GA1.1.687130020.1721379618&semt=ais_user" alt="" class="cpl">
+     <div class="ratg">
+       <i class="fa-solid fa-star fa-xl" style="color: #63E6BE;"></i>
+       <i class="fa-solid fa-star fa-xl" style="color: #63E6BE;"></i>
+       <i class="fa-solid fa-star fa-xl" style="color: #63E6BE;"></i>
+       <i class="fa-solid fa-star fa-xl" style="color: #63E6BE;"></i>
+       <i class="fa-solid fa-star-half-stroke fa-xl" style="color: #63E6BE;"></i>
+     </div>
+     <h5 class="cplnme">Michael & Jenny</h5>
+     <p class="cplpar">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis libero eum repellat laudantium explicabo perferendis.</p>
+   </div>
+   <div class="rev">
+     <img src="https://img.freepik.com/free-photo/cute-couple-looking-their-photos-camera_329181-506.jpg?size=626&ext=jpg&ga=GA1.1.687130020.1721379618&semt=ais_user" alt="" class="cpl">
+     <div class="ratg">
+       <i class="fa-solid fa-star fa-xl" style="color: #63E6BE;"></i>
+       <i class="fa-solid fa-star fa-xl" style="color: #63E6BE;"></i>
+       <i class="fa-solid fa-star fa-xl" style="color: #63E6BE;"></i>
+       <i class="fa-solid fa-star fa-xl" style="color: #63E6BE;"></i>
+       <i class="fa-solid fa-star-half-stroke fa-xl" style="color: #63E6BE;"></i>
+     </div>
+     <h5 class="cplnme">Rohit & Amirtha</h5>
+     <p class="cplpar">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis libero eum repellat laudantium explicabo perferendis.</p>
+   </div>
+   <div class="rev">
+     <img src="https://img.freepik.com/free-photo/happy-young-couple-taking-selfie-camera-city_23-2147950648.jpg?size=626&ext=jpg&ga=GA1.1.687130020.1721379618&semt=ais_user" alt="" class="cpl">
+     <div class="ratg">
+       <i class="fa-solid fa-star fa-xl" style="color: #63E6BE;"></i>
+       <i class="fa-solid fa-star fa-xl" style="color: #63E6BE;"></i>
+       <i class="fa-solid fa-star fa-xl" style="color: #63E6BE;"></i>
+       <i class="fa-solid fa-star fa-xl" style="color: #63E6BE;"></i>
+       <i class="fa-solid fa-star-half-stroke fa-xl" style="color: #63E6BE;"></i>
+     </div>
+     <h5 class="cplnme">James & Anna</h5>
+     <p class="cplpar">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis libero eum repellat laudantium explicabo perferendis.</p>
+   </div>
+ </div>
+</div>
+<footer class="d-flex flex-wrap justify-content-evenly flex-column">
+  <div class="d-flex justify-content-evenly flex-wrap ">
+    <div class="f1 mt-3 d-flex flex-column">
+        <h5>ABOUT US</h5>
+        <a class="f-link" href="">Our Company</a>
+        <a class="f-link" href="">Our Management</a>
+        <a class="f-link" href="">Connections</a>
+        <a class="f-link" href="">Annual Reports</a>
+        <a class="f-link" href="">Our Networks</a>
+
+    </div>
+    <div class="f2 mt-3">
+        <h5>SOCIAL MEDIA</h5>
+<div class=" mt-5 d-flex ">
+            <i class="me-4 fa-brands fa-facebook fa-xl  icons" style="color: #ffffff;"></i>
+            <i class="me-4 fa-brands fa-instagram fa-xl  icons" style="color: #ffffff;"></i>
+            <i class="me-4 fa-brands fa-twitter fa-xl  icons" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-whatsapp fa-xl  icons" style="color: #ffffff;"></i>
+</div>
+    </div>
+    <div class="f3 mb-5 ">
+        <img class="  w-100" src="https://cdn.dribbble.com/users/1060831/screenshots/6866645/trips_portfolio_illustration-dribbble.jpg" alt="">
+        <h3 class="a4 ms-5 ">Explore The World</h3>
+    </div>
+  </div>
+
+  <div class="text-center">&copy;Travel Guide 2022|Development </div>
+
+
+</footer>
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
